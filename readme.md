@@ -1,6 +1,18 @@
-# This team hasn't started yet...
+## Introduction
+*task 1:* create new issues  
 
-Check back later!
+*task 2:* setup workflow  
 
-**Please read `tasks.md` to start your work.**
+*task 3:* edit readme.md  
+
+*task 4:* run C code  
+
+*task 5:* update web page  
+
+*task 6:* add contributors  
+
+*task 7:* public repo  
+
+## Code
+## Contributors
  
