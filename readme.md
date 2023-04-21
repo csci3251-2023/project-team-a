@@ -14,5 +14,9 @@
 *task 7:* public repo  
 
 ## Code
+```c
+{% include_relative ./code.c %}
+```
+![C/C++ CLI Workflow](https://github.com/csci3251-2023/project-team-a/actions/workflows/c-cpp.yml/badge.svg)
 ## Contributors
  
