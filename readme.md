@@ -24,3 +24,5 @@
   <p>>><img src="{{ stu.image }}"> @{{ stu.user }} ({{ stu.name }})</p>
   <p>    >>{{ stu.content | markdownify }}</p>
 {% endfor %}
+
+Last updated: {{ site.time }}
