@@ -19,10 +19,13 @@
 ```
 ![C/C++ CLI Workflow](https://github.com/csci3251-2023/project-team-a/actions/workflows/c-cpp.yml/badge.svg)
 ## Contributors
- 
+<ul>
 {% for stu in site.stu %}
-  <p>>> <img src="{{ stu.image }}"> @{{ stu.user }} ({{ stu.name }})</p>
-  <p>"    ">>{{ stu.content}}</p>
+  <li>
+    <p><img src="{{ stu.image }}" alt="icon" width="50" height="50"> @{{ stu.user }} ({{ stu.name }})</p>
+    <ul><li><p>{{ stu.content | markdownify }}</p></li></ul>
+  </li>
 {% endfor %}
+</ul>
 
 Last updated: {{ site.time }}
